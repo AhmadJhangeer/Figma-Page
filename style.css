@@ -1,0 +1,264 @@
+*{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #000000;
+}
+div .a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+  background-color: #06C0CC;
+  border-radius: 10px;
+  margin: 0px 0px 0px 0px;
+}
+.btns{
+    margin: 0px 0px 0px 700px;
+}
+ul {
+  display: inline;
+  margin: 30px;
+  padding: 5px;
+}
+ul li {display: inline-block;}
+ul li:hover {background: rgb(255, 254, 254);}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #FFFFFF; 
+  display: block; 
+}
+ul li ul li .a {display:block !important;} 
+ul li ul li:hover {background: rgb(0, 0, 0);}
+
+.header1{
+    padding: 30px 10%;
+}
+
+.Logo1{
+    display: inline;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+nav {
+    display: inline;
+}
+.navbar_{
+    display: inline;
+    list-style: none;
+    
+}
+.button{
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    background: #06C0CC;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.ho{
+    display: none;
+    /* display: block; */
+    position:absolute;
+    background-color: #06C0CC;
+    min-width: 158px;
+    z-index: 1;
+}
+.ho a:hover{
+    display: block;
+    position:absolute;
+    background-color: #D9D9D9;
+    color: bisque;
+}
+.button:hover .ho{
+    display: block;
+
+}
+.main_image{
+    width: 100%;
+    height: 830px;
+}
+.Heading{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.Images{
+    display: inline;
+    padding: 10px;
+}
+.Contact{
+    background: #D9D9D9;
+    width: auto;
+    height: 563px;
+    top: 1820px;
+    border-radius: 10px;
+ 
+
+}
+.txt{
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.in{
+    background: #000000;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    
+    
+    
+}
+   
+.txt, .in{
+    margin: 8px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 1183px;
+    height: 40px;
+    margin-left: 54px;
+    margin-right: 63px;
+}
+.heading{
+    padding-top: 70px;
+    text-align: center;
+}
+button{
+    /* position: absolute; */
+    width: 310px;
+    height: 55px;
+    /* top: 200px; */
+    background: #06C0CC;
+    border-radius: 10px;
+    border-color: #06C0CC;
+    border-style: solid;
+    margin-left: 500px;
+    font-weight: 600;
+
+}
+
+.Box{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.mbox{
+    background: #D9D9D9;
+    width: auto;
+    height: 800px;
+    top: 1820px;
+    border-radius: 10px;
+}
+.Green{
+    position: absolute;
+    width: 310px;
+    height: 298px;
+    left: 459px;
+    top: 2500px;  
+    z-index: 3;  
+}
+.Green:hover{
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+.Red{
+    position: absolute;
+    width: 310px;
+    height: 298px;
+    left: 671px;
+    top: 2600px;  
+    z-index: 2;
+
+}
+.Red:hover{
+    -ms-transform: scale(3); 
+    -webkit-transform: scale(3);
+    transform: scale(3);
+}
+.Blue{
+    position: absolute;
+    width: 310px;
+    height: 298px;
+    left: 496px;
+    top: 2700px; 
+}
+.Blue:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.Foot{
+    background: #D9D9D9;
+    width: 100%;
+    /* height: 200px; */
+    top: 3300px;
+    border-radius: none;
+}
+.Foot{
+    margin-top: 155px;
+    display: inline-block;
+    /* padding-bottom: 100px; */
+     
+}
+
+.FLogo{
+    /* position: absolute; */
+   margin-left: 30px;
+   margin-top: 30px;
+}
+.pp{
+    margin-left: 40px;
+}
+
+.C1{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+.C2{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+.C3{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+.C11{
+    /* position: absolute; */
+    display: inline-block;
+    padding: 20px;
+  
+}
+.C22{
+    /* position: absolute; */
+    display: inline-block;
+    padding: 20px;
+}
+.C33{
+    /* position: absolute; */
+    display: inline-block;
+    padding: 20px;
+ 
+}
+.all{
+    display: inline-block;
+    margin: 25px 10px 0px 300px;
+
+}
+.lt{
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 1000px 0px 0px 300px;
+} */
